@@ -1,0 +1,23 @@
+GET http://localhost:7000/patient
+
+
+#####################################
+
+POST http://localhost:7000/patient
+Content-Type: application/json
+
+{
+  "firstName": "Antonio Nazco",
+  "address": {
+    "name": "House",
+    "streetAddress": "Ave 19th between 12th and 14th",
+    "city": "Sta Cruz",
+    "state": "123",
+    "zipCode": "33157"
+  },
+  "ssn": "123-12-1234"
+}
+
+###,
+## "ssn": "123-12-1234"
+###
